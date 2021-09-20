@@ -1,0 +1,20 @@
+kafka {
+  brokers = "localhost:9092"
+  zookeepers = "localhost:2181"
+  raw_topic = "tweets"
+  prediciton_topic = "prediction_topic"
+  state_dir = "/tmp"
+  partition = 0
+}
+
+twitter {
+  consumer_key = ""
+  consumer_secret = ""
+  token = ""
+  token_secret = ""
+  terms = ["Roberto","The comeback trail"]
+}
+model {
+model_dir = "model\\sentiment_model\\"
+input_file = "training.1600000.processed.noemoticon.csv"
+}

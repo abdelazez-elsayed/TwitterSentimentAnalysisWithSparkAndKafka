@@ -1,0 +1,1 @@
+{"class":"org.apache.spark.ml.feature.RegexTokenizer","timestamp":1631891533412,"sparkVersion":"3.1.1","uid":"regexTok_1a01d64dc82b","paramMap":{"pattern":"\\s+|[,.()\"]","inputCol":"tweet_text","outputCol":"tweet_tokens_u"},"defaultParamMap":{"minTokenLength":1,"gaps":true,"pattern":"\\s+","outputCol":"regexTok_1a01d64dc82b__output","toLowercase":true}}

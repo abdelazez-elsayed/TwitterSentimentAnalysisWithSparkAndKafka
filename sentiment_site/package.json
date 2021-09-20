@@ -1,0 +1,17 @@
+{
+  "name": "sentiment_site",
+  "version": "1.0.0",
+  "description": "Website to show twitter sentiment analysis about a term",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Abdelazez Elsayed",
+  "license": "MIT",
+  "dependencies": {
+    "bootstrap": "^5.1.1",
+    "kafkajs": "^1.15.0",
+    "plotly": "^1.0.6"
+  }
+}
