@@ -1,13 +1,13 @@
 # Twitter Stream Analysis using Spark ML and Kafka 
 Most of this project is taken from this [repo](https://github.com/jpzk/twitterstream) with different implementaion for PredictionStream
-##Project Files
+##  Project Files
 ### ModelBuilder
 Expressed in blog 
 ### IngestApp
 Take from tweetSource and produce in kafka topic expressed in application.conf
 ### PredictionStream
 Takes text from kafka topic produced from IngestApp and make a sentiment analysis using model built and saved in model directory then produce a prediction kafka topic
-##sentiment_site
+## sentiment_site
 A NodeJS based server that reads from prediction topic and send it to web site 
 ## Twitter Hosebird Client: References
 
